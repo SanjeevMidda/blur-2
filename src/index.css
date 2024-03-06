@@ -1,0 +1,19 @@
+* {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  transition: all 500ms;
+}
+
+.App {
+  height: 100dvh;
+}
+
+.circle {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  filter: blur(10px);
+  border: none;
+}
